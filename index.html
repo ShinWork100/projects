@@ -1,43 +1,43 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Homework 2</title>
     <!-- <script src="js/sum.js"></script> -->
-    <link rel="stylesheet" href="hw2.css">
-    <script src="hw2.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
     <form action="" method="post" id="theForm">
+      <div>
         <fieldset>
-            <legend>Add Employee</legend>
-            <div>
-                <label for="FirstName">First Number</label><br>
-                <input type="text" id="inputFirst" required="">
-            </div>
-            <label for="LastName">Last Name</label><br>
-            <input type="text" id="inputLast" required="">
-            <br>
-            <label for="Depart">Department</label><br>
-
-            <div>
-                <select id="Department">
+          <legend>Add Employee</legend>
+          <div>
+            <label for="FirstName">First Number</label><br>
+            <input type="text" id="inputFirst" required="">
+          </div>
+          <div>
+          <label for="LastName">Last Name</label><br>
+          <input type = "text" id = "inputLast" required="">
+          <br>
+          </div>
+          <div>
+          <label for ="Depart">Department</label>
+            <select id="Department">
               <option value="CS">CS</option>
               <option value="Nobody">NoBody</option>
                <option value="Who Cares">WhoCares</option>
               <option value="IT" selected>IT</option>
             </select>
-            </div>
-            <div>
-                <br>
-                <input type="submit" value="Submit->" id="submit">
-            </div>
+          </div>
+          <div>
+            <br>
+            <input type="submit" value="Submit->" id="submit">
+          </div>
+          
     </form>
     </fieldset>
-    <p id="demo">Demo</p>
+      <h2>Employee Added</h2>
+        <p id = "demo" >Not Added</p>
 
-
+  </div>
 </body>
-
 </html>
